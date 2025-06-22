@@ -1,0 +1,3 @@
+if you want a dataset you can go 
+https://www.kaggle.com/datasets/tombackert/brain-tumor-mri-data
+and download

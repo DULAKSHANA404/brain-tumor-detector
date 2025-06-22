@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Check Your Brain
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">    
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1>Dead Inside? Let's Check the Brain First</h1>
+        </nav>
+        <div class = "container">
+            <form action ="http://127.0.0.1:5000/result" method="post" enctype="multipart/form-data" target="_blank" >
+                <input class="image" type="file" name="image" required><br><br>
+                <input class="button-submit" type="submit" name="submit" value = "submit" >
+                <input class="button-reset" type="reset" name="reset" value="reset">
+            </form>
+        </div>
+    </body>
+</html>
